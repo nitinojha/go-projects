@@ -53,6 +53,7 @@ func mergeShifts(shifts []Shift) []Shift {
 	return merged
 }
 
+// To test the mergeShifts function, we will create a test function using the testing package.
 func TestMergeShifts(t *testing.T) {
 	tests := []struct {
 		inputTest      []Shift
